@@ -1,0 +1,38 @@
+.paymentsStatus {
+	overflow: auto;
+	width: 96%;
+	margin: 0px 2%;
+}
+.paymentsStatus .status {
+	float: left;
+	padding: 5px;
+	line-height: 18px;
+	font-size: 12px;
+	overflow: auto;
+}
+
+.paymentsStatus .status .st {
+	float: left;
+	margin-right: 15px;
+}
+
+.paymentsStatus .status .st .digits {
+	font-size: 16px;
+}
+
+.paymentsStatus .status .st .currency {
+	font-size: 10px;
+	color: #777;
+}
+.paymentsStatus .actions {
+	float: right;
+}
+
+.paymentsStatus .actions .rtlbutton {
+	float: right;
+}
+
+.paymentsStatus .actions .rtlbutton.btn-cancel {
+	background: #ff5252;
+	color: #FFF;
+}

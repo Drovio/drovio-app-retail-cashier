@@ -1,0 +1,186 @@
+.cashierStartScreen .whiteBox {
+	margin: 0px auto;
+	margin-top: 50px;
+	max-width: 550px;
+	overflow: auto;
+	background: #FFF;
+	border: 1px solid #BBB;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 0px 5px #CCC;
+	-webkit-box-shadow: 0 0px 5px #CCC;
+	-moz-box-shadow: 0 0px 5px #CCC;
+	padding: 25px;
+	color: #5E6570;
+}
+
+.cashierStartScreen .whiteBox h2.user_title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+}
+
+.cashierStartScreen .whiteBox h2.user_title .title {
+	text-transform: none;
+	text-decoration: underline;
+}
+
+.cashierStartScreen .whiteBox .formContainer .bginp {
+	display: block;
+	padding: 10px 20px;
+	font-size: 12px;
+	line-height: 16px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 15px auto;
+	clear: both;
+	text-align: center;
+}
+.cashierStartScreen .whiteBox .formContainer .dtContainer {
+	margin: 0px 50px;
+	overflow: auto;
+	text-align: center;
+}
+.cashierStartScreen .whiteBox .formContainer .dtContainer .dtc {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+
+.cashierStartScreen .whiteBox .formContainer .dtContainer .dtc .rinp {
+	display: none;
+}
+
+.cashierStartScreen .whiteBox .formContainer .dtContainer .dtc .rlabel {
+	display: block;
+	border: 1px solid #CCC;
+	padding: 10px 5px;
+	background: linear-gradient(#FEFEFE, #f0f0f0);
+	background: -webkit-linear-gradient(#FEFEFE, #f0f0f0);
+	background: -moz-linear-gradient(#FEFEFE, #f0f0f0);
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+}
+
+.cashierStartScreen .whiteBox .formContainer .dtContainer .dtc.selected .rlabel {
+	background: linear-gradient(rgb(45, 171, 220), rgb(14, 149, 211));
+	background: -webkit-linear-gradient(rgb(45, 171, 220), rgb(14, 149, 211));
+	background: -moz-linear-gradient(rgb(45, 171, 220), rgb(14, 149, 211));
+	border: 1px solid rgb(10, 104, 146);
+	color: #FFF;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+}
+
+.cashierStartScreen .whiteBox .formContainer .bginp.dt.auto {
+	display: none;
+}
+
+.cashierStartScreen .whiteBox .formContainer #btn_start_invoice {
+	display: block;
+	clear: both;
+	margin: 0px auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #5E6570;
+	border: 1px solid #5E6570;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 20px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.cashierStartScreen .whiteBox .formContainer #btn_start_invoice:hover {
+	background: #3CB0F7;
+	border: 1px solid #3CB0F7;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.cashierStartScreen .pending_invoices {
+	padding: 10px;
+	clear: both;
+	max-width: 550px;
+	margin: 10px auto;
+	overflow: auto;
+}
+
+.cashierStartScreen .pending_invoices .pinv {
+	float: left;
+	width: 23%;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	cursor: pointer;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 0px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.cashierStartScreen .pending_invoices .pinv .title {
+	font-size: 11px;
+	margin: 5px 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.cashierStartScreen .pending_invoices .pinv .date {
+	font-size: 10px;
+	color: #999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.cashierStartScreen .pending_invoices .pinv:hover {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.cashierStartScreen .pending_invoices:empty {
+	display: none;
+}
+
+.cashierStartScreen .footer {
+	color: #5E6570;
+	max-width: 450px;
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 0px 15px;
+	text-align: center;
+}

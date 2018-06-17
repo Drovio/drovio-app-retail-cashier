@@ -1,0 +1,128 @@
+.completeInvoiceDialog {
+	min-width: 600px;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #555459;
+	overflow: auto;
+}
+
+.completeInvoiceDialog .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.completeInvoiceDialog .close_button {
+	width: 24px;
+	height: 24px;
+	margin: 3px 0px;
+	float: right;
+	cursor: pointer;
+	background: url('%{media}/icons/closeX.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -24px;
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.completeInvoiceDialog .close_button:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.completeInvoiceDialog .formContainer {
+	margin-top: 20px;
+}
+
+.completeInvoiceDialog .formContainer .bginp {
+	display: block;
+	width: 90%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 5px 8px;
+	border: none;
+	border-bottom: 1px solid #CCC;
+	outline: none;
+	font-size: 12px;
+	margin: 5px auto;
+}
+
+.completeInvoiceDialog .formContainer #btn_close {
+	display: block;
+	width: 70%;
+	margin: 10px auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #5E6570;
+	border: 1px solid #5E6570;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.completeInvoiceDialog .formContainer #btn_close:hover {
+	background: #3CB0F7;
+	border: 1px solid #3CB0F7;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.completeInvoiceDialog h2.hd {
+	font-size: 12px;
+	text-align: center;
+}
+
+.completeInvoiceDialog #btn_download {
+	display: block;
+	width: 50%;
+	margin: 10px auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: transparent;
+	border: 1px solid #3CB0F7;
+	color: #3CB0F7;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.completeInvoiceDialog #btn_download:hover {
+	background: #3CB0F7;
+	border: 1px solid #3CB0F7;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+.completeInvoiceDialog {
+		min-width: 250px;
+	}
+}

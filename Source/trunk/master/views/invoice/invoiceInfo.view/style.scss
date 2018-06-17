@@ -1,0 +1,28 @@
+.invoiceInfo {
+	.irow {
+		overflow: auto;
+		padding: 5px 10px;
+		border-bottom: 1px solid #CCC;
+	}
+	.irow:last-child {
+		border-bottom: none;
+	}
+	.irow .title {
+		float: left;
+		font-size: 12px;
+	}
+	.irow .value {
+		font-size: 13px;
+		font-weight: bold;
+		text-align: right;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.rtlbutton.btn-edit-invoice {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 3px;
+	}
+}

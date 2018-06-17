@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Invoices" namespace="\">
+  <class name="invoicePrint" abstract="">
+    <info>
+      <version>1.0</version>
+      <build>1</build>
+      <datecreated>1443466214</datecreated>
+      <daterevised>1443468685</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Invoice Printer</title>
+      <description>Exports the invoice to a pdf for printing.
+It stores the pdf files inside the private or shared (option) directory: /retail/invoices/exports/.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private">
+        <prop type="string" name="invoiceID">
+          <description>The invoice id to print.</description>
+        </prop>
+        <prop type="pdfDoc" name="pdfParser">
+          <description>The pdf parser object.</description>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Create a new invoice print/exporter instance.</description>
+          <parameters>
+            <parameter name="$invoiceID" type="string" defaultvalue="">
+              <description>The invoice id to export.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="exportPDF" returntype="boolean">
+          <description>Exports the invoice to a pdf file.</description>
+          <parameters>
+            <parameter name="$shared" type="boolean" defaultvalue="">
+              <description>Whether to use the shared directory or not.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getPDF" returntype="mixed">
+          <description>Get the pdf file contents.</description>
+          <parameters>
+            <parameter name="$shared" type="boolean" defaultvalue="">
+              <description>Whether to use the shared directory or not.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The pdf file contents.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getFilePath" returntype="string">
+          <description>Get the file path for the invoice.</description>
+          <parameters>
+            <parameter name="$type" type="string" defaultvalue="">
+              <description>The file extension (type).</description>
+            </parameter>
+          </parameters>
+          <returndescription>The invoice file path.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="createInvoicePDF" returntype="mixed">
+          <description>Create the invoice pdf in its total.</description>
+          <parameters/>
+          <returndescription>The pdf created.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="printPageTemplate" returntype="void">
+          <description>Print the page template.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="printCompanyInfo" returntype="void">
+          <description>Print the company info for the invoice.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="printInvoiceInfo" returntype="void">
+          <description>Print all the invoice relative info.</description>
+          <parameters>
+            <parameter name="$pdf" type="pdfDoc" defaultvalue="">
+              <description>The pdf creator object.</description>
+            </parameter>
+          </parameters>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="printCustomerInfo" returntype="void">
+          <description>Print the customer info.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="printProductInfo" returntype="void">
+          <description>Print all the product info.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="printFooterInfo" returntype="void">
+          <description>Print the invoice footer including totals and disclaimers.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

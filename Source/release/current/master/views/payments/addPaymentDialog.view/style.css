@@ -1,0 +1,64 @@
+.addPaymentDialog h2.hd {
+	font-size: 14px;
+	margin: 10px 15px;
+	color: #555;
+}
+
+.addPaymentDialog .payment-list-container {
+	overflow: auto;
+	margin: 10px;
+}
+.addPaymentDialog .newPaymentFormContainer {
+	padding: 5px;
+	margin: 10px 0px;
+}
+
+.addPaymentDialog .newPaymentFormContainer .bginp {
+	display: block;
+	padding: 6px 12px;
+	font-size: 12px;
+	line-height: 16px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 0px 5px;
+	float: left;
+	outline: none;
+}
+
+.addPaymentDialog .newPaymentFormContainer #btn_add_payment {
+	display: block;
+	clear: both;
+	margin: 0px auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #5E6570;
+	border: 1px solid #5E6570;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 6px 12px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	float: left;
+	margin: 0px 5px;
+	clear: none;
+}
+
+.addPaymentDialog .newPaymentFormContainer #btn_add_payment:hover {
+	background: #3CB0F7;
+	border: 1px solid #3CB0F7;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}

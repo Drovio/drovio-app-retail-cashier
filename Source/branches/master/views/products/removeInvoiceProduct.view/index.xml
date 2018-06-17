@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="removeInvoiceProduct"><sdk_dependencies><dependency library="RTL" object="Invoices"></dependency><dependency library="UI" object="Apps"></dependency></sdk_dependencies><app_dependencies/></view>

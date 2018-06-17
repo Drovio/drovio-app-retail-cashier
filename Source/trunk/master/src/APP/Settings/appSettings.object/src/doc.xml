@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Settings" namespace="\">
+  <class name="appSettings" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1444083509</datecreated>
+      <daterevised>1444083509</daterevised>
+      <extends>
+        <object>\AEL\Resources\appSettings</object>
+      </extends>
+      <implements/>
+      <throws/>
+      <title>Cashier application settings</title>
+      <description>Manages all application settings, mainly for the printing process.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Create a settings object instance.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

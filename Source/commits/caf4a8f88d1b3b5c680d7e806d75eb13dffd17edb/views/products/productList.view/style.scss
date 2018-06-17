@@ -1,0 +1,191 @@
+.productListOuterContainer {
+	& {
+		position: relative;
+		height: 100%;
+	}
+	.rtlbutton.btn-add-first-product {
+		width: 50%;
+		display: block;
+		margin: 30px auto;
+		padding: 20px 0px;
+	}
+	.productListContainer {
+		& {
+			height: 100%;
+			position: relative;
+		}
+		.rtlbutton.btn-add-product {
+			float: right;
+			margin: 5px 2%;
+		}
+		.productList {
+			position: absolute;
+			top: 35px;
+			bottom: 0px;
+			width: 96%;
+			margin: 0px 2%;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			border: 1px solid #CCC;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			background: #FFF;
+			overflow: auto;
+		}
+		.productList .header.prow {
+			background: #5E6570;
+			border-bottom: 1px solid #CCC;
+			color: #FFF;
+			margin: 0px;
+		}
+		.prow {
+			& {
+				overflow: auto;
+				padding: 0px 5px;
+				margin: 2px 0px;
+				border-bottom: 1px solid #CCC;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+			&:last-child {
+				border-bottom: none;
+			}
+			.pview {
+				display: block;
+				overflow: auto;
+			}
+			&.edit .pview {
+				display: none;
+			}
+			.pform {
+				display: none;
+			}
+			&.edit .pform {
+				display: block;
+			}
+			.pview,
+			.pform {
+				margin: 2px 0px;
+			}
+			.prform {
+				float: right;
+			}
+			.fld {
+				float: left;
+				width: 12.5%;
+				padding: 3px;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			.fld.pid {
+				width: 6%;
+			}
+			.fld.ptitle {
+				width: 40%;
+			}
+			.fld.pprice {
+				width: 10%;
+				text-align: right;
+			}
+			.fld.pamount {
+				width: 8%;
+				text-align: right;
+			}
+			.fld.ptax {
+				width: 10%;
+				text-align: right;
+			}
+			.fld.pdiscount {
+				width: 10%;
+				text-align: right;
+			}
+			.fld.ptotal_price {
+				width: 10%;
+				text-align: right;
+			}
+			.fld.pedit {
+				padding: 0px;
+				margin: 3px;
+				float: right;
+				width: 14px;
+				height: 14px;
+				background: url('%{media}/icons/edit.svg') no-repeat center;
+				background-size: cover;
+				background-position: 0px 0px;
+				cursor: pointer;
+				opacity: 0.5;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			.fld.pedit:hover {
+				opacity: 1;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			
+			.fld.pcancel {
+				padding: 0px;
+				margin: 3px;
+				float: right;
+				width: 14px;
+				height: 14px;
+				background: url('%{media}/icons/closeX.svg') no-repeat center;
+				background-size: cover;
+				background-position: 0px -14px;
+				cursor: pointer;
+				opacity: 0.7;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+				border: none;
+				outline: none;
+			}
+			.fld.pcancel:hover {
+				opacity: 1;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			
+			.fld.psubmit {
+				padding: 0px;
+				margin: 3px;
+				float: right;
+				width: 14px;
+				height: 14px;
+				background: url('%{media}/icons/edit.svg') no-repeat center;
+				background-size: cover;
+				background-position: 0px -14px;
+				cursor: pointer;
+				opacity: 0.7;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+				border: none;
+				outline: none;
+			}
+			.fld.psubmit:hover {
+				opacity: 1;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			
+			input.fld {
+				border: none;
+				border-bottom: 1px solid #CCC;
+				height: 20px;
+				outline: none;
+			}
+		}
+	}
+}

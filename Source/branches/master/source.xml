@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map><library name="APP"><package name="Main"/><package name="Fonts"/><package name="Invoices"><object name="invoicePrint" title="invoicePrint"/></package><package name="Settings"><object name="appSettings" title="appSettings"></object></package></library></map>

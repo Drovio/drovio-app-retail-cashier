@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\Exception"></use><use path="\GTL\Docs\pdfDoc"></use><use path="\RTL\Invoices\invoice"></use><use path="\AEL\Resources\filesystem\fileManager"></use><use path="\RTL\Relations\customer"></use><use path="\ENP\Relations\ePersonAddress"></use><use path="\ENP\Relations\ePersonPhone"></use><use path="\API\Platform\importer"></use><use path="\RTL\Products\cProductStock"></use><use path="\RTL\Profile\company"></use><use path="\AEL\Platform\application"></use></dependencies>

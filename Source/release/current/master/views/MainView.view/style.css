@@ -1,0 +1,75 @@
+.retailCashierApplication {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	color: #5E6570;
+	position: relative;
+}
+.retailCashierApplication .inv-header {
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px solid #CCC;
+}
+
+.retailCashierApplication .inv-header .close_button {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/icons/closeX.svg') no-repeat center;
+	background-size: cover;
+	background-position-y: -24px;
+	cursor: pointer;
+}
+
+.retailCashierApplication .inv-header .hd {
+	font-size: 14px;
+	margin: 0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.retailCashierApplication .inv-body {
+	position: absolute;
+	top: 51px;
+	bottom: 40px;
+	width: 100%;
+	overflow: auto;
+}
+.retailCashierApplication .inv-body .section-info {
+	height: 40%;
+	border-bottom: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.retailCashierApplication .inv-body .section-info .panel {
+	height: 100%;
+	overflow: auto;
+	float: left;
+	width: 50%;
+	padding: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.retailCashierApplication .inv-body .section-products {
+	height: 60%;
+}
+
+.retailCashierApplication .inv-footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+	padding: 5px 0px;
+}
+
+.retailCashierApplication .inv-footer .inv-paymentsContainer {
+	height: 100%;
+	width: 100%;
+}

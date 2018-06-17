@@ -1,0 +1,29 @@
+.customerDetails .rtlbutton {
+	width: 40%;
+	display: block;
+	margin: 20px auto;
+}
+
+.customerDetails .crow {
+	overflow: auto;
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+.customerDetails .crow:last-child {
+	border-bottom: none;
+}
+
+.customerDetails .crow .title {
+	float: left;
+	font-size: 12px;
+}
+
+.customerDetails .crow .value {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

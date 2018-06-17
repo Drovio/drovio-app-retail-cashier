@@ -1,0 +1,91 @@
+.addCustomerDialog h2.hd {
+	font-size: 14px;
+	margin: 10px 15px;
+	color: #555;
+}
+.addCustomerDialog .searchContainer {
+	background: #FFF;
+	overflow: auto;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 10px;
+	position: relative;
+}
+
+.addCustomerDialog .searchContainer .searchIco {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/icons/searchIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -20px;
+	overflow: hidden;
+	margin: 4px;
+}
+
+.addCustomerDialog .searchContainer .searchInput {
+	float: left;
+	width: 100%;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 6px;
+	padding-right: 28px;
+	border: none;
+	outline: none;
+	color: #555;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.addCustomerDialog .setCustomerFormContainer {
+	padding: 5px;
+	margin: 10px 0px;
+}
+.addCustomerDialog .setCustomerFormContainer .custList {
+	margin: 10px 5px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	max-height: 300px;
+	overflow: auto;
+}
+.addCustomerDialog .setCustomerFormContainer .custList .citem {
+	line-height: 16px;
+	color: #5E6570;
+	border-bottom: 1px solid #CCC;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	cursor: pointer;
+}
+
+.addCustomerDialog .setCustomerFormContainer .custList .citem:last-child {
+	border-bottom: none;
+}
+
+.addCustomerDialog .setCustomerFormContainer .custList .citem:hover {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.addCustomerDialog .setCustomerFormContainer .custList .citem .cradio {
+	display: none;
+}
+
+.addCustomerDialog .setCustomerFormContainer .custList .citem .cname {
+	display: block;
+	font-size: 12px;
+	padding: 5px;
+}

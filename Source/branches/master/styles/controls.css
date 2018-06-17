@@ -1,0 +1,27 @@
+.rtlbutton {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 4px 8px;
+	margin: 0px 5px;
+	font-size: 12px;
+	line-height: 1.42857143;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-color: rgba(0, 0, 0, 0.1);
+	color: #ff5252;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	background: linear-gradient(#FEFEFE, #f0f0f0);
+	border: 1px solid #CCC;
+	border-color: #cdced0 #c5c6c8 #b6b7b9;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

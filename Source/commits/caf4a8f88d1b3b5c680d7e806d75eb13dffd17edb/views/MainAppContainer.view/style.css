@@ -1,0 +1,44 @@
+.retailCashierApplication {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: #EEE;
+}
+.retailCashierApplication .navbar {
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	background: #FFF;
+}
+
+.retailCashierApplication .navbar .applogo {
+	float: left;
+	overflow: auto;
+}
+
+.retailCashierApplication .navbar .applogo .ico {
+	float: left;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/logo.svg') no-repeat center;
+	background-size: cover;
+	margin-right: 15px;
+}
+
+.retailCashierApplication .navbar .applogo .hd {
+	font-size: 14px;
+	line-height: 24px;
+	color: #5E6570;
+	float: left;
+}
+
+.retailCashierApplication .mainViewContainer {
+	position: absolute;
+	top: 55px;
+	bottom: 0px;
+	width: 100%;
+}

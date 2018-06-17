@@ -1,0 +1,68 @@
+.retailCashierApplication {
+	& {
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background: #EEE;
+	}
+	.navbar {
+		& {
+			width: 100%;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			padding: 15px;
+			border-bottom: 1px solid #CCC;
+			overflow: auto;
+			background: #FFF;
+		}
+		.applogo {
+			float: left;
+			overflow: auto;
+		}
+		.applogo .ico {
+			float: left;
+			width: 24px;
+			height: 24px;
+			background: url('%{media}/logo.svg') no-repeat center;
+			background-size: cover;
+			margin-right: 15px;
+		}
+		.applogo .hd {
+			font-size: 14px;
+			line-height: 24px;
+			color: #5E6570;
+			float: left;
+		}
+		.settings_item {
+			float: right;
+			margin: 0px 10px;
+			padding: 3px 10px;
+			cursor: pointer;
+			color: #5E6570;
+			overflow: auto;
+			transition: .2s all ease-in-out;
+			-webkit-transition: .2s all ease-in-out;
+			-moz-transition: .2s all ease-in-out;
+		}
+		.settings_item .ico {
+			float: right;
+			width: 16px;
+			height: 16px;
+			margin-left: 5px;
+			background: url('%{media}/icons/devIcons.svg') no-repeat;
+			background-size: cover;
+			background-position: 0px -16px;
+		}
+		.settings_item .text {
+			float: right;
+			font-size: 12px;
+		}
+	}
+	.mainViewContainer {
+		position: absolute;
+		top: 55px;
+		bottom: 0px;
+		width: 100%;
+	}
+}

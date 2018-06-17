@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="StartScreen"><sdk_dependencies><dependency library="API" object="Geoloc"></dependency><dependency library="API" object="Profile"></dependency><dependency library="RTL" object="Invoices"></dependency><dependency library="UI" object="Apps"></dependency><dependency library="UI" object="Forms"></dependency><dependency library="UI" object="Login"></dependency></sdk_dependencies><app_dependencies><dependency library="APP" object="Settings"></dependency></app_dependencies></view>

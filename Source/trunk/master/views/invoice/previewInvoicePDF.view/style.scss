@@ -1,0 +1,45 @@
+.previewInvoiceDialog {
+	& {
+		min-width: 600px;
+		padding: 20px;
+		background: #FFF;
+		border: 1px solid #555459;
+		overflow: auto;
+	}
+	.header {
+		font-size: 16px;
+		color: #5E6570;
+		margin: 10px;
+		line-height: 30px;
+	}
+	.close_button {
+		width: 24px;
+		height: 24px;
+		margin: 3px 0px;
+		float: right;
+		cursor: pointer;
+		background: url('%{media}/icons/closeX.svg') no-repeat center;
+		background-size: cover;
+		background-position: 0px -24px;
+		opacity: 0.5;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.close_button:hover {
+		opacity: 1;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.previewContainer {
+		height: 400px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.previewInvoiceDialog {
+		& {
+			min-width: 250px;
+		}
+	}
+}

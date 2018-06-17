@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\Exception"></use><use path="\UI\Apps\APPContent"></use><use path="\API\Platform\importer"></use><use path="\AEL\Platform\application"></use><use path="\UI\Html\HTML"></use><use path="\UI\Html\DOM"></use><use path="\API\Platform\engine"></use></dependencies>

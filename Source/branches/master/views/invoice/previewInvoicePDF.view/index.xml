@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="previewInvoicePDF"><sdk_dependencies><dependency library="AEL" object="Resources"></dependency><dependency library="UI" object="Apps"></dependency><dependency library="UI" object="Content"></dependency><dependency library="UI" object="Presentation"></dependency></sdk_dependencies><app_dependencies><dependency library="APP" object="Invoices"></dependency></app_dependencies></view>
